@@ -18,6 +18,14 @@
 - 陸上布格：`BC = 0.0419 ρ h`，自自由空間異常**減去**
 - 海上布格：`BCₛ = 0.0419 (1.03 − 2.67) h`，為負值
 
+## 網站
+
+已部署到 GitHub Pages：
+
+https://oceanicdayi.github.io/2026_geophysics_gravity/
+
+推送到 `main` 後，GitHub Actions 會重新建置並發佈。
+
 ## 本地執行
 
 ```bash
