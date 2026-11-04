@@ -4,7 +4,11 @@ import react from "@vitejs/plugin-react";
 const repository = "2026_geophysics_gravity";
 
 export default defineConfig(({ command }) => ({
+  root: "web",
   base: command === "build" ? `/${repository}/` : "/",
-  plugins: [react()],
+  build: {
+    outDir: "../dist",
+    emptyOutDir: true,
+  },
   server: { host: true, port: 5173 },
 }));
