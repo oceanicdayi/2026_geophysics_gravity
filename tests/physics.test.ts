@@ -15,7 +15,7 @@ import {
   seaBouguer,
   sphereAnomalyMgal,
   theoreticalGravity,
-} from "../src/physics.ts";
+} from "../web/src/physics.ts";
 
 describe("theoretical gravity", () => {
   it("matches the equator anchor", () => {
